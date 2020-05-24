@@ -2,6 +2,10 @@
 
 InkToMath Equation Solver, CSN-254 Semester Project
 
+### Try it youself
+
+You can [download **InkToMath.apk**](https://github.com/am15h/InkToMath/raw/master/InkToMath.apk) and install on in your phone.
+
 ### Usage Instructions
 
 * The app can classify digits **0-9** and symbols **+**, **-**, **X**,
