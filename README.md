@@ -9,7 +9,13 @@ InkToMath Equation Solver, CSN-254 Semester Project
 
 * Press **CLASSIFY** button to add each digit, symbol to the equation.
 * Press **CALCULATE** button to evaluate the equation
+* Press **CLEAR** button to clear the equation and start again
 
+* For **- (negative)** symbol, prefer drawing on top of the canvas for higher accuracy
 
 ## Demo GIF
+
+<img src="https://github.com/am15h/InkToMath/blob/readme/InkToMath.gif" width="360" height="640" />
+
+
 
