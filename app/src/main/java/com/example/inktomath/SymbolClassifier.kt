@@ -5,7 +5,6 @@ import android.content.res.AssetManager
 import android.graphics.Bitmap
 import android.util.Log
 import org.tensorflow.lite.Interpreter
-import org.tensorflow.lite.flex.FlexDelegate
 import java.io.FileInputStream
 import java.nio.ByteBuffer
 import java.nio.ByteOrder
@@ -27,9 +26,7 @@ class SymbolClassifier(private val context: Context) {
         val assetManager = context.assets
         val model = loadModelFile(assetManager)
 
-        val delegate = FlexDelegate();
-        val options = Interpreter.Options().addDelegate(delegate)
-        val interpreter = Interpreter(model, options)
+        val interpreter = Interpreter(model)
 
         // Finish interpreter initialization
         this.interpreter = interpreter
