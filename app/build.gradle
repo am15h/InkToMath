@@ -42,6 +42,9 @@ dependencies {
 
     implementation 'org.tensorflow:tensorflow-lite:2.2.0'
     implementation 'org.tensorflow:tensorflow-lite-select-tf-ops:0.0.0-nightly'
+    implementation 'org.tensorflow:tensorflow-lite-support:0.0.0-nightly'
+
+
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     testImplementation 'junit:junit:4.12'
@@ -49,6 +52,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'net.objecthunter:exp4j:0.4.8'
+
 }
 repositories {
     mavenCentral()
