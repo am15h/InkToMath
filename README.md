@@ -17,10 +17,17 @@ You can [download **InkToMath.apk**](https://github.com/am15h/InkToMath/raw/mast
 
 * For **- (negative)** symbol, prefer drawing on top of the canvas for higher accuracy
 
+
+## Demo GIF
+
+<img src="https://github.com/am15h/InkToMath/blob/readme/InkToMath.gif" width="360" height="640" />
+
+
 ## Technical Details
 
 The project comprises a mobile application that can be used to compute values of
 handwritten equations. The main tools and technologies that are used include :
+
 * Android Studio
 * Flutter for app development
 * Convolutional Neural Networks
@@ -30,7 +37,7 @@ handwritten equations. The main tools and technologies that are used include :
 * TensorFlow Lite Library for integrating the model with the mobile app environment
 * Colab for training the DL model
 
-The architecture of the Deep Learning Model:
+#### The architecture of the Deep Learning Model:
 
 The model takes input as an image vector of dimensions (28, 28). This vector comprises
 the pixel values of the image of the symbol or digit to be recognized. These values are
@@ -44,12 +51,6 @@ After the Dropout, the Model has a Softmax Classifier. This is where the CNN out
 vector of dimensions (13, 1) consisting of the probabilities of the given image being any
 of the required characters. The class with the highest probability is predicted as the
 output by the model. The 13 classes include digits 0-9 and operators +, -, x.
-
-
-## Demo GIF
-
-<img src="https://github.com/am15h/InkToMath/blob/readme/InkToMath.gif" width="360" height="640" />
-
 
 
 
