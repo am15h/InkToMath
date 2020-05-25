@@ -23,3 +23,22 @@ You can [download **InkToMath.apk**](https://github.com/am15h/InkToMath/raw/mast
 
 
 
+
+## About the Model
+
+* A convolutional deep learning model has been trained for Image Classification task.
+
+* The architecture of model is as follows, 
+
+![model](https://github.com/am15h/InkToMath/blob/model-readme/model-architecture.png)
+
+
+* You can view the code in [InkToMath-notebook.ipynb](https://github.com/am15h/InkToMath/blob/master/InkToMath-notebook.ipynb).
+
+* You can download the dataset [here](https://github.com/am15h/InkToMath/raw/master/train_final.zip).
+
+### Dataset
+
+* MNIST dataset for Digit Classification.
+
+* Appended the images of symbols **+**, **-**, and **X**, to the MNIST dataset.
